@@ -1,0 +1,16 @@
+Use this workflow from CWH-Pyhton:
+
+git status
+git add .
+git commit -m "Your commit message here"
+git push
+If you only want to add specific files/folders:
+
+git add "Python fundamentals/"
+or git add path/to/file.py
+Then commit and push as above.
+
+If your branch is not main, use:
+
+git push -u origin <branch-name>
+Otherwise git push is enough after the first push.
