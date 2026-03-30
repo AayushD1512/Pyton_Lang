@@ -1,0 +1,15 @@
+Part 1: What are LLMs? (0:00 - 25:42)
+Inference (0:20): An LLM is primarily two files: a weights/parameters file (e.g., 140GB for Llama 2 70B) and a run file containing the code to execute the neural network. You can run these on a consumer device like a MacBook.
+Training (0:04:17): Training is a compression process. For Llama 2 70B, it involved compressing roughly 10 terabytes of internet text using 6,000 GPUs over 12 days at a cost of approximately $2 million.
+Functionality (0:11:22): LLMs work by predicting the next word in a sequence. This objective forces the network to learn a vast amount of knowledge about the world, which is stored in its parameters.
+Finetuning (0:14:14): The initial model just completes text. To make it a helpful assistant, it undergoes finetuning, where it is trained on high-quality, human-curated question-and-answer pairs to align its behavior.
+Part 2: The Future of LLMs (25:43 - 45:42)
+Scaling Laws (0:25:43): Performance is directly tied to model size and data volume; increasing these guarantees better performance.
+Tool Use (0:27:43): Modern LLMs are becoming platforms that use tools (browsers, Python interpreters, image generators) rather than just generating text based on internal memory.
+Multimodality (0:33:32): LLMs are evolving to understand and generate not just text, but also images, audio, and video.
+System 1/2 Thinking (0:35:00): Moving beyond quick, instinctive responses (System 1), models are developing System 2 capabilities—the ability to slow down, plan, and think through complex problems.
+LLM OS (0:42:15): The speaker compares LLMs to operating systems, where the context window functions as working memory (RAM), and the model manages resources and tools.
+Part 3: LLM Security (45:43 - 59:23)
+Jailbreaks (0:46:14): Attackers can use optimized text or images to bypass safety filters.
+Prompt Injection (0:51:23): Malicious instructions hidden in documents or websites can hijack the model to behave in unintended ways.
+Data Poisoning (0:56:23): Introducing malicious data into the training set can create hidden triggers or backdoors in the model.
