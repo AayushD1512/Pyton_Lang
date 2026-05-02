@@ -12,10 +12,10 @@
 # print(f"The sum is: {num}")
 
 
-# for i in range(5):
-#     for j in range(1, i+1):
-#         print(f"* ", end="") # end="" is used to print the stars in the same line otherwise it will print in new line
-#     print()
+for i in range(5):
+    for j in range(1, i+1):
+        print(f"* ", end="") # end="" is used to print the stars in the same line otherwise it will print in new line
+    print()
 
 
 # i = 1

@@ -16,7 +16,7 @@
 #     print("You are not eligible to vote.")
 
 
-num = int(input("Enter a number: "))
+num ="Enter a n int(input(umber: "))
 if num %2 == 0:
     print("The number is even.")
 else:
