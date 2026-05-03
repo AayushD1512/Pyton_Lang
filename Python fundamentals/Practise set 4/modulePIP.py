@@ -7,4 +7,4 @@ print(a, b)
 import requests # pip install requests
 
 a = requests.get("https://api.github.com/")
-print(a.json())
+print(a.json()['issues_url'])
